@@ -1,3 +1,6 @@
+To run test in GUI mode simply type 'npx cypress open' in command line and after app is opened choose E2E Testing. 
+Choose prefred browser and click Start E2E Testing. After that choose one of two available specs to run tests.
+
 In order to run test suites headlessly type next commands in command line:
     - for sauceDemo store testing enter: npx cypress run --spec cypress\e2e\task1\storeTestSuite.cy.js
     - for goRest endpoint testing enter: npx cypress run --spec cypress\e2e\task2\gorestTestSuite.cy.js
