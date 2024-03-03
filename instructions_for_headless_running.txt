@@ -1,0 +1,3 @@
+In order to run test suites headlessly type next commands in command line:
+    - for sauceDemo store testing enter: npx cypress run --spec cypress\e2e\task1\storeTestSuite.cy.js
+    - for goRest endpoint testing enter: npx cypress run --spec cypress\e2e\task2\gorestTestSuite.cy.js
