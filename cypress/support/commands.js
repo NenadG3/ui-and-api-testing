@@ -19,7 +19,7 @@ Cypress.Commands.add('createUser', ()=> {
           name: 'John',
           email: Math.random().toString(5).substring(2)+'@example',
           gender: 'male',
-          status: 'active'
+          status: 'active2'
           }
     })
   })
